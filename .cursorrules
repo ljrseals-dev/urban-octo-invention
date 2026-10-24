@@ -4,23 +4,23 @@
 When you encounter functionality you are not confident about, do NOT implement from scratch immediately.
 
 1. SEARCH WIDELY
-- Code hosting: GitHub, GitLab, Gitea, Codeberg, Bitbucket, SourceForge, AWS CodeConnections (CodeConnect), Gist
-- Registries: npm, PyPI, crates.io, Maven Central, NuGet, Go modules, Packagist, RubyGems, Hex
-- Docs: official docs, RFCs, Awesome lists, Stack Overflow, vendor SDKs
+   - Code hosting: GitHub, GitLab, Gitea, Codeberg, Bitbucket, SourceForge, AWS CodeConnections (CodeConnect), Gist
+   - Registries: npm, PyPI, crates.io, Maven Central, NuGet, Go modules, Packagist, RubyGems, Hex
+   - Docs: official docs, RFCs, Awesome lists, Stack Overflow, vendor SDKs
 
 2. EVALUATE EACH CANDIDATE
-- Maintenance: commits < 6 months; issues/PRs answered recently. Skip stale/abandoned regardless of stars.
-- License: clear and compatible. Reject unclear/missing/incompatible.
-- Popularity: stars are unreliable (star-farming). Prefer dependents, downloads, references.
-- Dependencies: count, age, size, known CVEs, transitive risk.
-- Known issues: open bugs, advisories, breaking-change history.
-- Fit: API shape, language/version, platform support.
+   - Maintenance: commits < 6 months; issues/PRs answered recently. Skip stale/abandoned regardless of stars.
+   - License: clear and compatible. Reject unclear/missing/incompatible.
+   - Popularity: stars are unreliable (star-farming). Prefer dependents, downloads, references.
+   - Dependencies: count, age, size, known CVEs, transitive risk.
+   - Known issues: open bugs, advisories, breaking-change history.
+   - Fit: API shape, language/version, platform support.
 
 3. DECIDE
-- Prefer proven designs; adapt, don't copy-paste.
-- Never copy incompatible or unidentifiable code.
-- Compare trade-offs if multiple fit.
-- If nothing fits, explain why, then implement from scratch.
+   - Prefer proven designs; adapt, don't copy-paste.
+   - Never copy incompatible or unidentifiable code.
+   - Compare trade-offs if multiple fit.
+   - If nothing fits, explain why, then implement from scratch.
 
 4. REPORT
-Briefly note sources checked, maintenance status, license, and why chosen/rejected.
+   Briefly note sources checked, maintenance status, license, and why chosen/rejected.
