@@ -1,0 +1,29 @@
+# .github/workflows/dep-check.yml
+name: Dependency Check
+
+on:
+  pull_request:
+    paths:
+      - 'package-lock.json'
+      - 'requirements.txt'
+      - 'pyproject.toml'
+      - 'go.sum'
+      - 'Cargo.lock'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install audit tools
+        run: pip install pip-audit
+
+      - name: Run dependency check
+        run: bash scripts/check-deps.sh
+        continue-on-error: true
