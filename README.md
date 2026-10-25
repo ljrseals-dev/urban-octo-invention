@@ -1,3 +1,8 @@
+Copyright © 2026 Lewis James Seals Jr. All rights reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.
 # Research Before Implementing
 
 A ready-to-drop package of AI coding rules that force models (Cursor, Claude Code, Copilot, Aider, Codex, etc.) to **search multiple forges and registries first** instead of inventing solutions from scratch.
